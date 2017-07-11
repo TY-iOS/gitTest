@@ -1,0 +1,267 @@
+body{
+    width: 100%;
+    background-image: url("../img/top_bg.png");
+    background-repeat: repeat;
+
+}
+.contan{
+    width: 1152px;
+    margin: 0 auto;
+}
+.head{
+    background-image: url("../img/top_bg.png");
+    background-repeat: repeat-x;
+    position: relative;
+}
+.top ul li{
+    float: left;
+}
+.nav{
+    margin: auto;
+    font-size: 19px;
+    line-height: 19px;
+    color: #585c58;
+    font-family: "sans-serif";
+    border-bottom: 1px solid #585c58;
+    border-top: 1px solid #585c58;
+    position: relative;
+    top: -75px;
+}
+.nav ul{
+
+    padding: 2px 0px 2px 171px;
+    display: inline-block;
+}
+.nav a{
+    color:#585c58 ;
+}
+.nav ul li{
+    float: left;
+    margin: 0px 30px;
+}
+.nav ul li::before{
+    content: "";
+}
+.banner{
+    width: 100%;
+
+}
+.banner img{
+    box-sizing: border-box;
+    padding-left: 195px;
+}
+.center{
+    width: 100%;
+    min-height: 300px;
+    background-color: white;
+    position: relative;
+    margin-top: 110px;
+    padding-top: 400px;
+}
+.center_box{
+    background-image: url("../img/sm_bg.png");
+    height: 514px;
+    width: 994px;
+    position: absolute;
+    margin: -110px 78px;
+    top: 0;
+    left: 0;
+}
+.center_title{
+    color: #008a16;
+    font-size: 36px;
+    margin: auto;
+}
+.center_title img{
+    margin: 40px auto;
+    display: inherit;
+}
+.center_left{
+    width: 425px;
+}
+.center_left_title{
+    font-size: 27px;
+    text-align: center;
+}
+.center_left_bottom{
+    margin-top: 27px;
+    padding-left: 75px;
+}
+.tip{
+    width: 285px;
+    height: 125px;
+    background-color:#fbbabe;
+    overflow: hidden;
+    margin-bottom: 17px;
+}
+.top_box{
+    background-color: white;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #2f2f2f;
+    width: 210px;
+    height: 106px;
+    text-align: center;
+    margin: 10px 20px;
+}
+.tip_num{
+    font-size: 60px;
+}
+.tip_num span:last-child{
+    font-size: 20px;
+}
+.tip_text{
+    text-align: center;
+}
+.center_left{
+    border-right: 1px dashed #008a16;
+}
+.center_right{
+    width: 560px;
+    display: inline-block;
+}
+.center_right_bottom img{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.present{
+    display: inline-block;
+    float: right;
+    width: 140px;
+    margin-top: 100px;
+    margin-right: 55px;
+}
+.present span{
+    font-size: 22px;
+}
+.present ul{
+    font-size: 16px;
+    margin-top: 17px;
+}
+.present ul li{
+    margin-bottom: 10px;
+}
+.center_mid{
+
+}
+.center_bg{
+    background-image: url("../img/promise.png");
+    background-repeat: no-repeat;
+    width: 870px;
+    height: 129px;
+    margin: auto;
+}
+.center_bg span{
+    font-size: 21px;
+    display: block;
+    text-align: center;
+}
+.center_bg span:first-child{
+    padding-top: 30px;
+    padding-left: 90px;
+    padding-bottom: 10px;
+}
+.center_bg span:last-child{
+    content: " ";
+
+
+}
+.center_bg a{
+    font-size: 21px;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+}
+.center_bg img{
+    vertical-align: middle;
+}
+.preferential{
+    margin-top: 10px;
+}
+.preferential ul{
+    margin: auto;
+    width: 1000px;
+}
+.preferential li:first-child{
+    margin-right: 36px;
+    margin-top: 13px;
+}
+.preferential li:last-child{
+    margin-right: 0px;
+}
+.preferential li{
+    float: left;
+    margin-right: 53px;
+    margin-bottom: 50px;
+}
+.footer_title{
+    background-image: url("../img/title_bg.png");
+    background-repeat: no-repeat;
+    height: 162px;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    background-position: center;
+    line-height: 178px;
+}
+
+.sm_title{
+    background-image: url("../img/leaf.png");
+    background-repeat: no-repeat;
+    height: 61px;
+    background-position: center;
+    font-size: 27px;
+    text-align: center;
+}
+.footer_smBox{
+    margin-bottom: 100px;
+}
+.text_box_title{
+    font-size: 28px;
+    text-align: center;
+}
+.text_box_title_s{
+    font-size: 19px;
+    text-align: center;
+}
+.foot_box>div{
+    display: inline-block;
+
+}
+
+.text_box{
+    text-align: center;
+}
+.foot_box{
+    margin-top: 50px;
+    padding-left: 108px;
+}
+.text_box_footer{
+    font-size: 20px;
+}
+.text_box_title{
+    padding: 10px 0px;
+}
+.last_Box{
+    width: 422px;
+}
+.text_box_footer{
+    text-align: center;
+}
+.text_box_footer a{
+    vertical-align: middle;
+}
+.last_Box{
+    float: left;
+    margin-top: 75px;
+
+}
+.last_Box:nth-child(2n+1){
+    margin-right: 100px;
+}
+.end{
+    width: 944px;
+    margin: 0px auto 300px;
+
+}
